@@ -15,6 +15,7 @@
         android:paddingRight="0dp"
         android:paddingBottom="16dp">
 
+<<<<<<< HEAD
         <TextView
             android:id="@+id/textView"
             android:layout_width="wrap_content"
@@ -43,6 +44,42 @@
             android:layout_gravity="center"
             android:onClick="@string/signout"
             android:text="@string/signout" />
+=======
+        <EditText
+            android:id="@+id/main_email"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="0dp"
+            android:layout_marginTop="200dp"
+            android:layout_marginRight="0dp"
+            android:layout_marginBottom="16dp"
+            android:ems="20"
+            android:hint="@string/input_email"
+            android:inputType="textEmailAddress"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <EditText
+            android:id="@+id/main_pwd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="16dp"
+            android:ems="20"
+            android:hint="@string/input_password"
+            android:inputType="textPassword"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:layout_editor_absoluteY="62dp" />
+
+        <Button
+            android:id="@+id/main_login_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:layout_gravity="center"
+            android:text="@string/main_login_btn" />
+>>>>>>> SignInUpWithoutGoogle
 
 
 

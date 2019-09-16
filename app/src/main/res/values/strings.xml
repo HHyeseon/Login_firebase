@@ -3,11 +3,21 @@
     <string name="signin">로그인</string>
     <string name="signout">로그아웃</string>
     <string name="signup">회원가입</string>
+<<<<<<< HEAD
     <string name="loginId">아이디</string>
     <string name="input_loginId">아이디 입력</string>
     <string name="password">비밀번호</string>
     <string name="input_password">비밀번호 입력</string>
     <string name="confirm">확인</string>
+=======
+    <string name="email">이메일</string>
+    <string name="input_email">이메일 입력</string>
+    <string name="password">비밀번호</string>
+    <string name="input_password">비밀번호 입력</string>
+    <string name="confirm">확인</string>
+    <string name="main_login_btn">Login</string>
+    <string name="main_join_btn">SignUp</string>
+>>>>>>> SignInUpWithoutGoogle
 
 
 </resources>
